@@ -1,0 +1,24 @@
+#divImgZipCode, #divFormZipCode{
+    display: flex;
+    justify-content: center;
+}
+
+#country{
+    margin-left: 0.55em;
+    margin-bottom: 1em;
+}
+
+#zipCode{
+    margin-bottom: 1em;
+}
+
+#buttonSubmit{
+    width: 23.4em;
+}
+
+#divFormZipCodeFieldset{
+    border-width: thin;
+    border-color: black;
+    border-style: groove;
+    padding: 0.5em;
+}

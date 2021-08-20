@@ -1,0 +1,34 @@
+.infoZipCode{
+    margin-top: 1em;
+}
+
+.tableInfo {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableInfo td, .tableInfo th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tableInfo thead{
+    text-align-last: center;
+}
+
+.tableInfo tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.tableInfo tr:hover {
+    background-color: #ddd;
+}
+
+.tableInfo th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4fa1f3;
+    color: white;
+}

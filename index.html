@@ -1,0 +1,38 @@
+<!doctype html>
+<head>
+	<meta charset="utf-8">
+	<title>Zip Code</title>
+	<meta name="description" content="A frontend dev aptitude test by Deep Space Robots.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="autocomplete.css">
+	<link rel="stylesheet" href="table.css">
+</head>
+<body>
+	<div>
+		<div id="divImgZipCode">
+			<img id="myImageCountry" src="states\USA.svg" alt="country" width="500" height="600">
+		</div>
+		<div id="divFormZipCode">
+			<form autocomplete="off" id="form">
+				<fieldset id="divFormZipCodeFieldset">
+					<legend>Zip Codes</legend>
+					<label for="myInput">Country:</label>
+					<div class="autocomplete" id="country" style="width:300px;">
+						<input id="myInput" type="text" name="myCountry" placeholder="Text Country">
+					</div><br/>
+					<label for="myInputZip">Zip Code:</label>
+					<div class="autocomplete" id="zipCode" style="width:300px;">
+						<input id="myInputZip" type="text" name="myZip" placeholder="Text Zip code">
+					</div><br/>
+					<input id="buttonSubmit" type="submit">
+				</fieldset>
+			</form>	
+		</div>
+	</div>
+	<div class="infoZipCode"></div>
+	<script src="script.js"></script>
+</body>
+</html>
+
